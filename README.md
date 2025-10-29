@@ -30,6 +30,7 @@ A simple user management application built with **React**, **TypeScript**, **Mat
 - **Code Quality**: ESLint + Prettier
 - **API**: JSONPlaceholder (dummy REST API)
 - **Images**: Picsum Photos (random profile pictures)
+- **Toast Notifications**: React Toastify
 
 ##  Installation
 
