@@ -1,5 +1,5 @@
 import { useState, useMemo } from "react"
-import { Grid, Box, Container } from "@mui/material"
+import { Grid, Box } from "@mui/material"
 import { UserCard } from "@/components/molecules/UserCard/UserCard"
 import { SearchBar } from "@/components/molecules/SearchBar/SearchBar"
 import { LoadingSpinner } from "@/components/molecules/LoadingSpinner/LoadingSpinner"

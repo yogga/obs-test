@@ -1,6 +1,6 @@
-import { Avatar as MuiAvatar } from "@mui/material"
+import { Avatar as MuiAvatar, AvatarProps as MuiAvatarProps } from "@mui/material"
 
-interface AvatarProps {
+interface AvatarProps extends Omit<MuiAvatarProps, 'size'> {
   src: string
   alt: string
   size?: "small" | "medium" | "large"
